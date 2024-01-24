@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tarcin.ai</title>
+    <link rel="stylesheet" href="Tarcins.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+</head>
+
+<body>
+    
+    <nav class="header" style="background-color: white; height: 80px; border-bottom: grey solid; position: fixed; top: 0;"><br>
+        <span class="logo" style="margin-bottom: 10px; padding-left: 60px;"><img src="Tarcinlogo.png" height="40px"></span>
+        <span class="demo" style="padding-top:80px;padding-left: 1300px;padding-right: 200px;  margin-bottom: 50px;"><button class="demog"><b>Get a free demo</b></button></span>
+    </nav>
+    <div class="intro">
+        <table class="tbl">
+            <tr class="row-para" ><br><br>
+               <td style="padding-left: 80px; font-size : 25px; padding-top: 100px; font-family: sans-serif;" ><b style="font-size:60px">Your one-stop ecommerce shop</b>
+                   <p style="font-size: 30px;">Apps, websites and everything you need to build your ecommerce business online in one premium package.</p>
+                    <li style="list-style-image: url(tick.png)">Get selling easily in just a few days</li>
+                    <li style="list-style-image: url(tick.png)">Keep 100% of your profit - <u>we charge no seller fees</u></li>
+                    <li style="list-style-image: url(tick.png)">Start for as little as <u>₹2,500 per month</u></li>
+                </td>
+                <td>
+                    <img src="Ecomm-removebg-preview.png" height="400 px" style="padding-left:90px; padding-top: 75px; padding-right: 60px;">
+                </td>
+            </tr>
+               
+            <tr class="row-button">
+                <td >
+                    <br><br>
+                    <span style=" padding-left: 80px;"><button style=" background-color: limegreen;border-radius: 5px;border: none; box-shadow: 2px 2px 2px 0 #a4c1c1; height: 55px; width: 200px;" class="button"><b style="font-size: 15px;">Get A Free Demo</b></button></span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span><a href="https://www.builder.ai/studio-store-product/ecommerce-app-website?_gl=1*hp0g5t*_up*MQ..&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe52OkSXUEl5p8XpUTPfL77P83PsoNm8YnYReeUqI9iiDYOTc5_xW8tAaAtqREALw_wcB"><button style=" background-color: white; border-radius: 5px;border: none; box-shadow: 2px 2px 2px 0 #a4c1c1; width: 250px; height: 55px; border: black solid;" >See Pricing And Plans</button></a></span><br>
+                </td>
+                
+            <tr class="row3">
+                <td style="font-size: 13px;font-family: sans-serif; padding-left: 80px;">
+                  <br><br>
+                    Serving the world's leading brands 
+                  <br><br>
+                </td>                
+            </tr>
+            
+            <tr class="row4">
+              <td>
+                <span class="absolute left-80 top-0 w-[70px] h-full bg-gradient-to-r to-transparent rotate-180 z-10 from-white"></span>
+                <div class="flex items-center animate-slow-infinite-scroll gap-4 mix-blend-darken" style="width: calc(100px * 6); ">
+                    <span class="absolute left-0 top-0 w-[70px] h-full bg-gradient-to-l to-transparent rotate-180 z-10 from-white"></span>
+                    <div class="ticker-container" style="margin-left: 80px">
+                        <div class="ticker-front"></div>
+                        <div class="ticker-title">
+                                <!-- Duplicate your images to create a seamless loop -->
+                            <div class="ticker-item"><img src="https://www.builder.ai/images/pepsi-logo.png" alt="Pepsi"></div>
+                            <div class="ticker-item"><img src="https://www.builder.ai/images/makro-logo.jpg" alt="Makro"></div>
+                            <div class="ticker-item"><img src="https://www.builder.ai/images/BBC-logo.png" alt="BBC"></div>
+                            <div class="ticker-item"><img src="https://www.builder.ai/images/virgin-logo-sm.png" alt="Virgin"></div>
+                            <div class="ticker-item"><img src="https://www.builder.ai/images/NBC-logo.png" alt="NBC"></div>
+                            <div class="ticker-item"><img src="https://www.builder.ai/images/pepsi-logo.png" alt="Pepsi"></div>
+                            <div class="ticker-item"><img src="https://www.builder.ai/images/makro-logo.jpg" alt="Makro"></div>
+                            <div class="ticker-item"><img src="https://www.builder.ai/images/BBC-logo.png" alt="BBC"></div>
+                            <div class="ticker-item"><img src="https://www.builder.ai/images/virgin-logo-sm.png" alt="Virgin"></div>
+                            <div class="ticker-item"><img src="https://www.builder.ai/images/NBC-logo.png" alt="NBC"></div>
+                        </div>
+                        <div class="ticker-mask"></div>
+                    </div>
+                </div><br><br> 
+               </td> 
+            </tr>
+            
+            <tr class="row5" >
+                <td class="col2" style="align-items: center;">
+                    <div style="padding-left: 600px;">
+                        <span><img src="Tarcinlogo.png" height="80px" ></span> 
+                    </div>
+                    <br><br>
+                </td>
+            </tr>
+            
+            <tr class="row6">
+                <td style="padding-left: 200px;  margin-right: -20px;">
+                    <img src="https://www.builder.ai/images/Group-162872-2-p-500.png">
+                </td>
+                <td style="font-family: sans-serif; padding-right: 40px; left: 0;">
+                    <b style="font-size: 35px;">Every tool you need to sell online</b><br>
+                    <p style="font-size: 20px; line-height: 35px;">We <a href="https://www.builder.ai/blog/create-an-app?_gl=1*7bdy3e*_up*MQ..&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe52OkSXUEl5p8XpUTPfL77P83PsoNm8YnYReeUqI9iiDYOTc5_xW8tAaAtqREALw_wcB" style="color: black; text-decoration: underline limegreen">create apps</a> and websites for your store. Plus, we’ve<br> teamed up with Microsoft to bring you full access to the<br> Microsoft 365 suite. That’s Excel for reporting, video calls <br>via Microsoft Teams, 50GB of mailbox space, and much more.<br> It’s all included for one cost, with no hidden fees.</p><br>
+                    <a href="https://www.builder.ai/studio-store-product/builder-x-microsoft?_gl=1*moeyi8*_up*MQ..&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe52OkSXUEl5p8XpUTPfL77P83PsoNm8YnYReeUqI9iiDYOTc5_xW8tAaAtqREALw_wcB" style="font-size: 20px;color:black; text-decoration: underline limegreen"><b>Find out more..</b></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <img src="savings.png" width="1300px" style="padding: 30px; padding-left: 100px;">
+    <br><br>
+
+    <div class="links" style="padding-left: 500px;">
+        <span><a href="https://www.builder.ai/compare/shopify?_gl=1*1greq4x*_up*MQ..&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe52OkSXUEl5p8XpUTPfL77P83PsoNm8YnYReeUqI9iiDYOTc5_xW8tAaAtqREALw_wcB" style="font-family: sans-serif; font-size: 17px;color:black; text-decoration: underline limegreen;  "><b>Read Builder.ai vs Shopify</b></a></span>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <span><a href="https://www.builder.ai/compare/marketplaces?_gl=1*1greq4x*_up*MQ..&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe52OkSXUEl5p8XpUTPfL77P83PsoNm8YnYReeUqI9iiDYOTc5_xW8tAaAtqREALw_wcB" style="font-family: sans-serif; font-size: 17px;color:black; text-decoration: underline limegreen"><b>Read Builder.ai vs Marketplace</b></a></span>
+    </div>
+    <br><br>
+
+    <div>
+        <b style="padding-left: 600px; font-size: 35px;">How we compare</b>
+        <table class="table-container" cellspacing="30" cellpadding="20">
+            <tr>
+                <th></th>
+                <th>Tarcin </th>
+                <th>Marketplaces(Amazon, eBay)</th>
+                <th>SaaS vendors(Shopify)</th>
+                <th>Agency or freelancer</th>
+            </tr>
+            <tr>
+                <td>Responsive web + mobile</td>
+                <td><img src="tick.png"></td>
+                <td><img src="tick.png"></td>
+                <td><img src="tick.png"></td>
+                <td><img src="tick.png"></td>
+            </tr>
+            <tr>
+                <td>iOS & Android Apps</td>
+                <td><img src="tick.png"></td>
+                <td><img src="tick.png"></td>
+                <td><img src="minus.png" height="33"></td>
+                <td><img src="tick.png"></td>
+            </tr>
+            <tr>
+                <td>Delivery partners</td>
+                <td><img src="tick.png"></td>
+                <td><img src="tick.png"></td>
+                <td><img src="tick.png"></td>
+                <td><img src="minus.png" height="33"></td>
+            </tr>
+            <tr>
+                <td>Payment partners</td>
+                <td><img src="tick.png"></td>
+                <td><img src="tick.png"></td>
+                <td><img src="tick.png"></td>
+                <td><img src="minus.png" height="33"></td>
+            </tr>
+            <tr>
+                <td>Own your marketing (Push notifications, email, SMS)</td>
+                <td><img src="tick.png"></td>
+                <td><img src="minus.png" height="33"></td>
+                <td><img src="tick.png"></td>
+                <td><img src="minus.png" height="33"></td>
+            </tr>
+            <tr>
+                <td>Customer data</td>
+                <td><img src="tick.png"></td>
+                <td><img src="minus.png" height="33"></td>
+                <td><img src="tick.png"></td>
+                <td><img src="tick.png"></td>
+            </tr>
+            <tr>
+                <td>Add new features</td>
+                <td><img src="tick.png"></td>
+                <td><img src="minus.png" height="33"></td>
+                <td><img src="minus.png" height="33"></td>
+                <td><img src="tick.png"></td>
+            </tr>
+            <tr>
+                <td>Live in 2 weeks</td>
+                <td><img src="tick.png"></td>
+                <td><img src="minus.png" height="33"></td>
+                <td><img src="tick.png"></td>
+                <td><img src="minus.png" height="33"></td>
+            </tr>
+            <tr>
+                <td>Ongoing support</td>
+                <td><img src="tick.png"></td>
+                <td><img src="tick.png"></td>
+                <td><img src="tick.png"></td>
+                <td><img src="minus.png" height="33"></td>
+            </tr>
+            <tr>
+                <td>Simple monthly payments</td>
+                <td><img src="tick.png"></td>
+                <td><img src="minus.png" height="33"></td>
+                <td><img src="tick.png"></td>
+                <td><img src="minus.png" height="33"></td>
+            </tr>
+            <br><br>
+        </table>
+    </div>
+
+    <div class="steps" style="background-color: #f3ebff; font-family: calibri;">
+        <br><br><br>
+        <p><b style="font-family: calibri; font-size: 47px; padding-left: 0px;">How it works in 4 simple steps</b></p>
+        <br>
+        <table>
+            <tr>
+                <td style="padding-left: 100px;">
+                    <img src="one.png" height="60">
+                    <br>
+                    <div style="color: #6200ea; font-size: 22px;">
+                        <b>Create your branded store</b>
+                    </div>
+                    <b>________________________________</b><br>
+                    <p class="tpara">Choose the design, add your logo <br>and promotional banners, and get<br> ready to launch your branded store.<br><br></p>
+                </td>
+                <td>
+                    <img src="two.png" height="60">
+                    <br>
+                    <div style="color: #6200ea; font-size: 22px;">
+                        <b>Showcase your products</b>
+                    </div>
+                    <b>________________________________</b><br>
+                    <p class="tpara">Upload all your product information<br> easily including descriptions, images,<br> pricing, colours, sizes, quantity and<br> more.</p>
+                </td>
+                <td>
+                    <img src="three.png" height="60">
+                    <br>
+                    <div style="color: #6200ea; font-size: 22px;">
+                        <b>Prepare to go live</b>
+                    </div>
+                    <b>________________________________</b><br>
+                    <p class="tpara">2 weeks after your kick-off call<br> your website and app are ready<br> to go live.<br><br></p>
+                </td>
+                <td style="padding-right: 100px;">
+                    <img src="four.png" height="60">
+                    <br>
+                    <div style="color: #6200ea; font-size: 22px;">
+                        <b>Grow your business</b>
+                    </div>
+                    <b>________________________________</b><br>
+                    <p class="tpara">Our built-in support keeps your<br> website and apps up to date with<br> no fuss. Plus, you can scope and<br> add features at any time.</p>
+                </td>
+            </tr>
+        </table>
+        <br><br>
+    </div>
+
+    <div>
+        <table style="background-color: white;;">
+            
+            <tr class="row6">
+                <br><br>  
+                <td style="font-family: sans-serif; padding-left: 225px; padding-right: 20px; row-gap: 100px;">
+                    <b style="font-size: 31px;">Your customers won’t wait - why should you?</b><br>
+                    <p style="font-size: 19px; line-height: 28px;">Our best-in-class support team can help deliver your website and apps in just a few days. No tech knowledge required! Whether you’re just starting out, have an existing business, or you’re selling via a marketplace, we make it easy for you to take ownership of your brand online.</p>
+                    <a href="https://www.builder.ai/studio-store-product/builder-x-microsoft?_gl=1*moeyi8*_up*MQ..&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe52OkSXUEl5p8XpUTPfL77P83PsoNm8YnYReeUqI9iiDYOTc5_xW8tAaAtqREALw_wcB" style="font-size: 20px;color:black; text-decoration: underline limegreen"><b>Find out more..</b></a>
+                </td>
+                &nbsp;&nbsp;&nbsp;
+                <td style="padding-right: 200px;  margin-right: 20px; left: 20;">
+                    <img src="experts.png">
+                </td>
+                
+            </tr>
+            <tr>
+                <br><br>
+                <td style="padding-left: 200px;  margin-right: -20px; right: 20;">
+                    <img src="arrivals.png">
+                </td>
+                &nbsp;&nbsp;&nbsp;
+                <td style="font-family: sans-serif; padding-right: 250px; padding-left: 20;">
+                    <b style="font-size: 31px;">Set your business up for growth</b><br>
+                    <p style="font-size: 19px; line-height: 28px;">Unlike online marketplaces and reseller websites, we give you full control over your code. You own all of your data, which means you can serve up tailored product recommendations or reward your customers for spreading the word about your business.</p><br>
+                    <a href="https://www.builder.ai/studio-store-product/builder-x-microsoft?_gl=1*moeyi8*_up*MQ..&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe52OkSXUEl5p8XpUTPfL77P83PsoNm8YnYReeUqI9iiDYOTc5_xW8tAaAtqREALw_wcB" style="font-size: 20px;color:black; text-decoration: underline limegreen"><b>Find out more..</b></a>
+                </td>
+            </tr>
+            <br><br>
+        </table>
+        <br><br>
+    </div>
+    <div>
+        <br><br>
+        <img src="add.png" width="100%" style="left: 0; right: 0;">
+        <br><br>
+    </div>
+
+    <div class="overlap">
+        Our plans
+        <br><br>
+        <span>
+            <button style=" background-color:white;border-radius: 5px;border: none; box-shadow: 2px 2px 2px 0 #a4c1c1; height: 55px; width: 200px;" class="button"><b style="font-size: 15px;">Web only</b></button>
+        </span>
+        <span>
+            <button style=" background-color: rgb(217, 225, 228);border-radius: 5px;border: none; box-shadow: 2px 2px 2px 0 #a4c1c1; height: 55px; width: 200px;" class="button"><b style="font-size: 15px;">Web and app</b></button>
+        </span>
+        <br><br>
+        <label class="switch" style="size: 15px;">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+        <span style="font-family: calibri;font-size: 17px;">Pay upfront (Save 4 months payment)</span>
+    </div>
+
+    <div>
+        <img class="awards" src="Award.png" style="width: 95%; height:250px; right: 0; padding-left: 110px;">
+    </div>
+
+    <div class="support">
+        <br><br><br><br><br><br><br><br>
+        <img src="support.png" style="padding-left: 620px;height: 140px;">
+        <div style="font-family: calibri; font-size: 45px; padding-left: 400px;">
+            <b>What customers say about Builder.ai</b>
+        </div>
+        <br>
+    </div>
+
+    
+<div class="slideshow-container" >
+
+    <div class="mySlides fade" >
+      <div class="numbertext" style="padding:100px;font-size:25px;color:white">
+    <span>&#8220;</span>The guidance from your reps has been really helpful, helping with app development, creating developer accounts and many things that normally have to be done by the client.
+    
+    Hemant Keshari
+    
+    Kitchen First - Grocery</div>
+      
+      
+    </div>
+    
+    
+    <div class="mySlides fade" >
+      <div class="numbertext" style="padding:100px;font-size:25px;color:white">
+    <span>&#8220;</span>It's really easy to use the builder platform for tracking the project progress and checking in. Studio Store could offer everything I needed to get my business online.
+    
+    Anup Lalli
+    
+    SafariArts, eCommerce, UK</div>
+      
+      
+    </div>
+    
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    
+    <div style="text-align:center" >
+      <span class="dot" onclick="currentSlide(1)" style="margin-top:300px"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      
+    </div>
+    
+    </div>
+    <br>
+    
+    
+</body>
+<footer>
+    <div>
+        <table class="foot" cellpadding="1" cellspacing="9" style="align:center;margin-left: 140px;width:1300px;margin-top: 20px;">
+            
+            <tr>
+              
+                   
+                     <td><img src="Tarcinlogo.png" height="40px"></td>   
+                    
+                    <td><b>Products</b></td>
+                
+              
+                    <td><b>Resources</b></td>
+                
+                
+                    <td><b>Company</b></td>
+               
+                    <td><b>Reach us</b></td>
+                
+            </tr>
+            <tr >
+                <td>
+                   
+                        <a href="#" class="fa fa-facebook"  style="color:white"></a>
+                    
+                </td>
+                <td>
+                    <a href="https://www.builder.ai/builder-studio?_gl=1*1nrym2n*_up*MQ..&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe52OkSXUEl5p8XpUTPfL77P83PsoNm8YnYReeUqI9iiDYOTc5_xW8tAaAtqREALw_wcB">Builder Studio
+                </td>
+                <td>
+                    <a href="https://www.builder.ai/app-builder?_gl=1*fqbaip*_up*MQ..&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe52OkSXUEl5p8XpUTPfL77P83PsoNm8YnYReeUqI9iiDYOTc5_xW8tAaAtqREALw_wcB">App Builder</a>
+                </td>
+                <td>
+                    <a href="https://www.builder.ai/about-us?_gl=1*1olu5bs*_up*MQ..&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe52OkSXUEl5p8XpUTPfL77P83PsoNm8YnYReeUqI9iiDYOTc5_xW8tAaAtqREALw_wcB">About us</a>
+                </td>
+                <td>
+                    <a href="https://www.builder.ai/blog?_gl=1*ew4p52*_up*MQ..&gclid=Cj0KCQiAnrOtBhDIARIsAFsSe52OkSXUEl5p8XpUTPfL77P83PsoNm8YnYReeUqI9iiDYOTc5_xW8tAaAtqREALw_wcB">Blog</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    
+                        <a href="#" class="fa fa-linkedin"></a>
+                   
+                </td>
+                <td>
+                    <a href="#">Studio One</a>
+                </td>
+                <td>
+                    <a href="#">Ecommerce</a>
+                </td>
+                <td>
+                    <a href="#">Careers</a>
+                </td>
+                <td>
+                    <a href="#">Newsroom</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   
+                        <a href="#" class="fa fa-instagram"></a>
+                  
+                </td>
+                <td>
+                    <a href="#">Builder Cloud</a>
+                </td>
+                <td>
+                    <a href="#">Web to App</a>
+                </td>
+                <td>
+                    <a href="#">Partners</a>
+                </td>
+                <td>
+                    <a href="#">Contact us</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                 
+                        <a href="#" class="fa fa-twitter"></a>
+                    
+                </td>
+                <td>
+                    <a href="#">Studio Rapid</a>
+                </td>
+                <td>
+                    <a href="#">Case studies</a>
+                </td>
+                <td>
+                    <a href="#">FAQs</a>
+                </td>
+                <td>
+                    <a href="#"></a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  
+                        <a href="#" class="fa fa-rss"></a>
+                    
+                </td>
+                <td>
+                    <a href="#"></a>
+                </td>
+                <td>
+                    <a href="#">Glossary</a>
+                </td>
+                <td>
+                    <a href="#">DevOps</a>
+                </td>
+                <td>
+                    <a href="#"></a>
+                </td>
+            </tr>
+        </table>
+        <div>
+            <img src="footer.png" width="100%">
+        </div>
+    </div>
+</footer>
+
+
+
+</html>
+
+
